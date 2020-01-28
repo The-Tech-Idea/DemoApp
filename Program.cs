@@ -13,6 +13,11 @@ namespace AD_Authentication
         [STAThread]
         static void Main()
         {
+            ///Azure AD Authentication
+            //Code
+            var aad ="Azure";
+            //Done
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
